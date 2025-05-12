@@ -1,0 +1,126 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "blogging-nest-js",
+    "collectionId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+    "dateExported": "2025-02-27T12:18:07.416Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "ae93f712-47e5-4aa7-aa31-fabeafd6e531",
+            "name": "auth",
+            "containerId": "",
+            "created": "2025-02-23T09:51:32.987Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "bdae7491-834f-46aa-860c-15d4734c9bec",
+            "name": "blog",
+            "containerId": "",
+            "created": "2025-02-27T04:42:04.378Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "884673e4-e4a5-40a3-a6ac-31d2c065872e",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "ae93f712-47e5-4aa7-aa31-fabeafd6e531",
+            "name": "register user",
+            "url": "/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-23T09:51:52.152Z",
+            "modified": "2025-02-27T04:04:33.540Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Krishna\",\n  \"email\":\"krishna12@gmail.com\",\n  \"password\":\"Harish@1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f8015699-6886-4e22-8f1a-b575da977f1a",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "ae93f712-47e5-4aa7-aa31-fabeafd6e531",
+            "name": "login user",
+            "url": "/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-25T11:58:33.334Z",
+            "modified": "2025-02-27T03:58:56.572Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"email\":\"krishna1@gmail.com\",\n  \"password\":\"Harish@1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "56f1c633-6416-4f9b-b830-269b0e67d588",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "ae93f712-47e5-4aa7-aa31-fabeafd6e531",
+            "name": "user profile",
+            "url": "/auth/profile",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-25T11:59:52.245Z",
+            "modified": "2025-02-27T04:44:11.879Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2JkYWY2ZWMxYjEzMmJkMDU4N2EzZmUiLCJpYXQiOjE3NDA2MzE0NDYsImV4cCI6MTc0MzIyMzQ0Nn0.FnncygRIpV9g6-wX3xAckvvCDy0pTuXiZrBnYs9q0uA"
+            }
+        },
+        {
+            "_id": "5e46f870-5e3c-41b1-8059-d974dfad2bc1",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "bdae7491-834f-46aa-860c-15d4734c9bec",
+            "name": "add-blog",
+            "url": "/blog/add",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-02-27T04:42:12.500Z",
+            "modified": "2025-02-27T04:45:51.922Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"i am good boy\",\n  \"content\":\"good mtlb accha\",\n  \"tags\":\"cute,buddy,friends\",\n  \"image\":\"https://srv.carbonads.net/static/30242/4b723271609d12c16fec10ddea2ce78e9bba0517\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2JkYWY2ZWMxYjEzMmJkMDU4N2EzZmUiLCJpYXQiOjE3NDA2MzE0NDYsImV4cCI6MTc0MzIyMzQ0Nn0.FnncygRIpV9g6-wX3xAckvvCDy0pTuXiZrBnYs9q0uA"
+            }
+        },
+        {
+            "_id": "11cbfce6-342c-4267-970e-aedda5fba952",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "bdae7491-834f-46aa-860c-15d4734c9bec",
+            "name": "get all blogs",
+            "url": "/blog/get-all",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-27T04:50:38.801Z",
+            "modified": "2025-02-27T04:50:55.608Z",
+            "headers": []
+        },
+        {
+            "_id": "31e4d3d7-ec12-4485-af4d-db109bd2d145",
+            "colId": "a5f0cd9e-d706-434d-9fa8-db817ab433dd",
+            "containerId": "bdae7491-834f-46aa-860c-15d4734c9bec",
+            "name": "get blog by id",
+            "url": "/blog/get/i-am-good-boy",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-02-27T04:56:14.915Z",
+            "modified": "2025-02-27T04:56:22.085Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:1234/api/v1"
+        }
+    },
+    "ref": "y-6B329-AoY-x89rJp83EmJnWWx98rtHsjhW5VRDDUo2FYV1kDlv6zq4rgUXsL3YuvAs4fsZ_gwwm2uLKKAy2A"
+}
